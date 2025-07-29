@@ -95,7 +95,7 @@ $$\begin{align}
 \frac{\partial J}{\partial b} &= \left. F(t,x) \right |_{t=b} = F(b,x)\\
 \frac{\partial J}{\partial a} &= \left. -F(t,x) \right |_{t=a} = -F(a,x)
 \end{align}$$  
-These formulas can be combined. For example, let $K(x) \equiv \int_a^{b(x)} F(t,x) dt $. It&s derivation by x is:  
+These formulas can be combined. For example, let $K(x) \equiv \int_a^{b(x)} F(t,x) dt $. It's derivation by x is:  
 $$\frac{dK}{dx} = \int_a^{b(x)} F_x(t,x) dt + F[b(x),x]b'(x) $$  
 
 #### Devlopment of the Euler Equation  
